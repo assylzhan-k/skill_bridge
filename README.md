@@ -98,10 +98,3 @@ class PyroEffect implements ElementEffect {
     // Pyro implementation
 }
 ```
-
-## Technologies
-
-- Java
-- IntelliJ IDEA
-- Git
-- GitHub
