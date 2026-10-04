@@ -52,13 +52,9 @@ They provide different elemental implementations.
 The implementation can be changed without changing the Skill object:
 
 ```java
-Skill skill =
-        new NormalSkill("Wind Blade", new AnemoEffect());
-
+Skill skill = new NormalSkill("Wind Blade", new AnemoEffect());
 skill.use();
-
 skill.setElementEffect(new CryoEffect());
-
 skill.use();
 ```
 
